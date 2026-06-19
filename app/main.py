@@ -29,3 +29,11 @@ def predict(data: InputData):
     
     # Return the prediction result
     return {"predicted_house_price": prediction[0]}
+
+@app.get("/health")
+def healthy():
+    
+    return "Cool as cucumber"
+
+    
+    
