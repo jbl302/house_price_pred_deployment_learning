@@ -35,5 +35,10 @@ def healthy():
     
     return "Cool as cucumber"
 
+@app.get("/test")
+def healthy():
+    
+    return "awesome"
+
     
     
